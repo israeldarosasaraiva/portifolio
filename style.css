@@ -27,17 +27,17 @@ header {
     justify-content: space-around;
 }
 
-header h1 {
-    color: #dc3545;
+header h1 {                           /* dev */
+    color: #dc3545;                
     font-size: 2.5rem;
 }
 
-header span {
+header span {                                /* saber */
     color: #fff;
 }
 
 
-header .navegacao-primaria {
+header .navegacao-primaria {                 /* tag em html */
     display: flex;
     gap: 30px;
     align-items: center;
@@ -72,7 +72,8 @@ header .navegacao-primaria li a:hover::after {
     animation: inicializar .7s forwards;
     background-color: #000;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;     /* separa em colunas */
+
     justify-content: space-around;
     align-items: center;
     gap: 60px;
@@ -95,7 +96,7 @@ header .navegacao-primaria li a:hover::after {
 .section-div div p {
     font-family: 'Poppins';
     font-weight: 200;
-    color: #f7f7f7;
+    color: #fff;
 }
 
 .section-div div a {
