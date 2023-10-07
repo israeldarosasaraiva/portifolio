@@ -13,7 +13,7 @@ function escrevendoLetra(){
     const titulo = document.querySelector('.digitando');
     ativaLetra(titulo);
 } 
-
+escrevendoLetra()
 function ativacaoMenu(){
     const ativaMenu = document.querySelector('.fa-bars');
     const navMenu = document.querySelector('header .navegacao-primaria')
@@ -25,7 +25,9 @@ function ativacaoMenu(){
     })
 }
 
-ativacaoMenu()
+ativacaoMenu()      // ativa a função, efeito nas letras//
+
+
 
 function sobreMim(){
     const experiencia = document.querySelectorAll('.experience_content div');
@@ -151,7 +153,7 @@ buttonGeral.forEach((item)=>{
         }
 
         if(currentButton.classList.contains('all')){
-            showLista(listaALL, "all")
+            'showLista(listaALL, "all")
         }
     });
 });
